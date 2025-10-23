@@ -30,7 +30,7 @@ DB_NAME      = os.getenv("DB_NAME", "serena572002")
 OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "1598576202").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", "-4914200776"))
-FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
+FORCE_SUB    = int(os.getenv("FORCE_SUB", "-4914200776"))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
 MASTER_KEY   = os.getenv("MASTER_KEY", "gK8HzLfT9QpViJcYeB5wRa3DmN7P2xUq")  # session encryption
@@ -76,4 +76,5 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
