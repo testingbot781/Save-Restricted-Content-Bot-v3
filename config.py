@@ -20,16 +20,16 @@ YTUB_COOKIES = """
 """
 
 # ─── BOT / DATABASE CONFIG ──────────────────────────────────────────────────────
-API_ID       = os.getenv("API_ID", "")
-API_HASH     = os.getenv("API_HASH", "")
+API_ID       = os.getenv("API_ID", "20652418")
+API_HASH     = os.getenv("API_HASH", "3fc03e988c56e0c35c2b8d323af2da97")
 BOT_TOKEN    = os.getenv("BOT_TOKEN", "")
-MONGO_DB     = os.getenv("MONGO_DB", "")
-DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb://atlas-sql-6868bad1649d0d0cc925b24d-cuarvs.a.query.mongodb.net/Serena572002?ssl=true&authSource=admin")
+DB_NAME      = os.getenv("DB_NAME", "serena572002")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "1598576202").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
-LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1001234456"))
+LOG_GROUP    = int(os.getenv("LOG_GROUP", "-4914200776"))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
 
 # ─── SECURITY KEYS ──────────────────────────────────────────────────────────────
@@ -45,8 +45,8 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
-JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/team_spy_pro")
-ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/username_of_admin")
+JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/+agKjy6njgXg2ZDQ1")
+ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/technicalserena")
 
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ PREMIUM PLANS CONFIGURATION
@@ -76,3 +76,4 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
