@@ -45,7 +45,7 @@ FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
 PREMIUM_LIMIT  = int(os.getenv("PREMIUM_LIMIT", "500"))
 
 # ─── UI / LINKS ─────────────────────────────────────────────────────────────────
-JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/+agKjy6njgXg2ZDQ1")
+JOIN_LINK     = os.getenv("JOIN_LINK", "https://t.me/+1QGkrxsl0n42Yzdl")
 ADMIN_CONTACT = os.getenv("ADMIN_CONTACT", "https://t.me/technicalserena")
 
 # ════════════════════════════════════════════════════════════════════════════════
@@ -76,5 +76,6 @@ P0 = {
 # ════════════════════════════════════════════════════════════════════════════════
 # ░ DEVGAGAN
 # ════════════════════════════════════════════════════════════════════════════════
+
 
 
